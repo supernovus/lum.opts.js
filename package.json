@@ -1,0 +1,30 @@
+{
+  "name": "@lumjs/opts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "exports": 
+  {
+    ".": "./index.js",
+    "./package.json": "./package.json"
+  },
+  "license": "MIT",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/supernovus/lum.opts.js.git"
+  },
+  "dependencies": 
+  {
+    "@lumjs/core": "^1.30.0",
+    "@lumjs/errors": "^1.0.0"
+  },
+  "devDependencies":
+  {
+    "@lumjs/tests": "^2.0.0"
+  },
+  "scripts":
+  {
+    "test": "lumtest.js",
+    "build-docs": "jsdoc -c ./jsdoc.json"
+  }
+}
